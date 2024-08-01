@@ -68,12 +68,22 @@ Please refer the [links](https://github.com/microsoft/nni) for more details.
 
 ## Experimental Results
 Our results on  whole six datasets:
-![dataset](assets/results.png){:height="80%" width="80%"}
+![dataset](assets/results.png)
 
 ## Acknowledgements
 
-The code repo is largely built on this repo: https://github.com/sgvaze/generalized-category-discovery.
+The code repo is largely built on this [repo](https://github.com/sgvaze/generalized-category-discovery).
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+# Citations
+If you use our code, please cite our work as:
+```bibtex
+@article{duan2024prediction,
+  title={Prediction consistency regularization for Generalized Category Discovery},
+  author={Duan, Yu and He, Junzhi and Zhang, Runxin and Wang, Rong and Li, Xuelong and Nie, Feiping},
+  journal={Information Fusion},
+  volume={112},
+  pages={102547},
+  year={2024},
+  publisher={Elsevier}
+}
+```
