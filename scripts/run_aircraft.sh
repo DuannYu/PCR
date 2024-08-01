@@ -3,7 +3,7 @@
 set -e
 set -x
 
-CUDA_VISIBLE_DEVICES=0 python train_hpo.py \
+CUDA_VISIBLE_DEVICES=0 python train.py \
     --dataset_name 'aircraft' \
     --batch_size 128 \
     --grad_from_block 11 \
