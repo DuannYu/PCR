@@ -29,7 +29,6 @@ We use fine-grained benchmarks in this paper, including:
 We use oarse-grained benchmarks in this paper, including:
 
 * [CIFAR-10/100](https://pytorch.org/vision/stable/datasets.html)
-* [ImageNet-100](https://image-net.org/download.php)
 
 ### Scripts
 
@@ -67,7 +66,7 @@ CUDA_VISIBLE_DEVICES=0 python train_auto.py \
 Please refer the [links](https://github.com/microsoft/nni) for more details.
 
 ## Experimental Results
-Our results on  whole six datasets:
+Our results on  whole five datasets:
 ![dataset](assets/results.png)
 
 ## Acknowledgements
